@@ -1,0 +1,222 @@
+﻿
+/* Cascading Style Sheet file defining colors for spinning site pages */
+
+/*    SCHEMES
+
+=RRGGBB
+#000000 Black
+#C0C0C0 Silver
+#808080 Gray
+#FFFFFF White
+#800000 Maroon
+#FF0000 Red
+#800080 Purple
+#FF00FF Fuchsia
+#008000 Green
+#00FF00 Lime
+#808000 Olive
+#FFFF00 Yellow
+#000080 Navy
+#0000FF Blue
+#008080 Teal
+#00FFFF Aqua
+
+#ffffc0 Pale yellow color used for page background
+*/
+
+/* Formatting for whole page */
+/* BODY { color: #000000; background-color: #ffffc0; background-image: none; } */
+BODY
+{
+	color:  rgba(255, 255, 0, 0.945);
+	background-image: url('../images/BodyBackground.jpg');
+}
+
+/* Page title */
+H1
+{
+	color: #000000;
+}
+
+/* Page Subtitle */
+H2 
+{
+	color: black;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* Navbar text */
+H3
+{
+	color: #006699;
+	border-color: orange;
+}
+H3 A:link
+{
+	color: #006699;
+}
+H3 A:active
+{
+	color: #006699;
+}
+H3 A:visited
+{
+	color: #006699;
+}
+H3 A:hover
+{
+	color: #006699;
+}
+/* try giving these a ;background-color: silver; background-image: none */
+/* and turning the hover to teal */
+P.nav
+{
+	color: gray;
+	border-color: silver;
+}
+P.nav A:link
+{
+	color: gray;
+}
+P.nav A:active
+{
+	color: orange;
+	border-color: orange;
+}
+P.nav A:visited
+{
+	color: gray;
+}
+P.nav A:hover
+{
+	color: orange;
+	border-color: orange;
+}
+
+/* paragraph (section) heading text */
+H4
+{
+	color: Black;	
+}
+H4 i
+{
+	color: Black; /*margin-left: 5px; 	margin-right: 5px; */
+}
+
+/* Navbar text that isn't a hyperlink */
+H5
+{
+	color: white;
+	border-color: orange;
+}
+H5 A:visited
+{
+	color: silver;
+}
+P.navcurpg
+{
+	color: gray;
+	border-color: orange;
+}
+P.navcurpg A:visited
+{
+	color: silver;
+}
+
+/* disclaimer and footnote text */
+H6
+{
+	color: gray;
+}
+H6 A:link
+{
+	color: gray;
+}
+H6 A:active
+{
+	color: gray;
+}
+H6 A:visited
+{
+	color: gray;
+}
+H6 A:hover
+{
+	color: gray;
+}
+
+/* Body text */
+P
+{
+	color: white;
+}
+A:link
+{
+	color: #006699;
+}
+A:active
+{
+	color: #006699;
+	background-image: none;
+}
+A:visited
+{
+	color: #006699;
+}
+A:hover
+{
+	color: #006699;
+}
+
+/* Citations */
+CITE
+{
+	color: gray;
+}
+
+/* Quoted examples text */
+BLOCKQUOTE
+{
+	color: gray;
+}
+
+/* Table */
+TABLE
+{
+	background-image: url('../images/TableBackground.jpg');
+}
+
+/* section heading and body columns of tables */
+TD.sect
+{
+}
+TD.body
+{
+}
+TD.link
+{
+}
+TD.bar
+{
+}
+TD.heading
+{
+}
+
+/* Horizontal rules */
+HR
+{
+	color: silver;
+}
+HR.between
+{
+	color: #006699;
+}
+
+.logotype
+{
+	color: #ffffc0;
+	background-color: black;
+}
+

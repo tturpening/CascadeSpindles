@@ -11,10 +11,14 @@ div.container, .boarder{
 .gridBackground {
     background-image: url('../images/gridBackground.jpg');
 }
+.top-buffer30 { margin-top:30px; }
 .top-buffer20 { margin-top:20px; }
 .top-buffer10 { margin-top:10px; }
 .bottom-buffer10 { margin-bottom:10px; }
 p,h5 {
     margin-top :0px;
     margin-bottom: 0px;
+}
+.nav-link {
+    font-size: large
 }
